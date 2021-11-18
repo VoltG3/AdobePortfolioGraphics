@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Kristiāns Danoss */
+
+.wrapper {
+	display: flex;  
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.wrapper > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.header {
+	display: block;
+	background: #193042;
+		height: 6vh;
+}
+
+.main {
+  	text-align: center;
+		height: 88vh;
+	flex: 1;
+}
+
+
+.footer {
+		height: 6vh;
+}
+	
+.aside-1 {
+		height: 88vh;	
+}
+
+.aside-2 {
+		height: 88vh;
+}
+
+@media all and (min-width: 600px) {
+	.aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+	.main    { flex: 3 0px; }
+	.aside-1 { order: 1; } 
+	.main    { order: 2; }
+	.aside-2 { order: 3; }
+	.footer  { order: 4; }
+	.footer_author { order: 5; }
+}
+
+body {
+		padding: 0em; /* FlexBox */
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	flex-grow: 1;
+ 	min-height: 350px;
+ 	background: url(../img/bg_mono.jpg) no-repeat
+    center;
+	
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+  	background-blend-mode: luminosity;
+  	color: var(--main-black-color);   /*ēnu nokrāsa*/
+}
+
+/* Bildes pielāgojas FlexBox bloka izmēram .sliderDiv/Div/imgDIV*/
+.slider {
+  	display: flex;
+}
+
+.slider>div {
+  	min-width: 0;
+}
+
+.slider>div>img {
+  	max-width: 100%;
+  	height: auto;
+}
+
+.box_shadow {
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    
+}
+
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+.FADE_IN {
+
+  -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+  -moz-animation: fade-in 1s linear; /* Fx 5+ */
+  -o-animation: fade-in 1s linear; /* Opera 12+ */
+  animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+}
+
+.FADE_IN_5s {
+
+  -webkit-animation: fade-in 5s linear; /* Safari 4+ */
+  -moz-animation: fade-in 5s linear; /* Fx 5+ */
+  -o-animation: fade-in 5s linear; /* Opera 12+ */
+  animation: fade-in 5s linear; /* IE 10+, Fx 29+ */
+}

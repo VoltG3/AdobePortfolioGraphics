@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio, Kristiāns Danoss MD10(ieskaites darbs).</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/meny.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/main_akrils.css" />
+	  	<link href="Css/meny_dropdown.css" rel="stylesheet" type="text/css" media="only screen and (max-width:992px)" /> <!-- 786 -->
+	  	<link href="Css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:992px)" />
+  </head>
+  <body>
+	<div class="wrapper">
+<!-- --><header class="header box_shadow">
+			<div clas="container-fluid">
+				<div calss="row">
+			<!-- --><div class="col-sm-3">
+						<ul class="navigation">
+							<li><a class="portfolio" href="index.html">Portfolio</a></li>
+						</ul>
+						<p class="portfolio_mobile">Portfolio</p>
+<!-- drop down -->		<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn"><p class="mobil_izvelne p_color_portfolio">Izvēlne</p></button>
+							  <div id="myDropdown" class="dropdown-content">
+								  	<a href="index.html">Titullapa</a>
+									<a href="100gade.html">Latvijai 100</a>
+									<a href="plakati.html">Plakāti</a>
+									<a href="diplomi.html">Diplomi</a>
+									<a href="atklatnes.html">Atklātnes</a>
+									<a href="video.html">Video</a>
+									<a href="akrils.html">Akrils</a>
+							  		<a href="cits.html">Cits</a>
+								  	<p role="separator" class="divider" style="color:white">___________________</p>
+								  	<a href="Info.html">Info</a>
+							  </div>
+						</div>
+						<script>
+							function myFunction() {
+								document.getElementById("myDropdown").classList.toggle("show");
+							}
+							function filterFunction() {
+								var input, filter, ul, li, a, i;
+									input = document.getElementById("myInput");
+									filter = input.value.toUpperCase();
+									div = document.getElementById("myDropdown");
+									a = div.getElementsByTagName("a");
+								for (i = 0; i < a.length; i++) {
+									if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+										a[i].style.display = "";
+								  } else {
+										a[i].style.display = "none";
+										}
+									}
+								}
+						</script>			
+					</div> <!-- Col-sm-2 -->
+			<!-- --><div class="col-sm-7">
+						<ul class="navigation">
+							<li><a href="100gade.html">Latvijai 100</a></li>
+							<li><a href="plakati.html">Plakāti</a></li>
+							<li><a href="diplomi.html">Diplomi</a></li>
+							<li><a href="atklatnes.html">Atklātnes</a></li>
+							<li><a href="video.html">Video</a></li>
+							<li class="a_activ"><a href="akrils.html" style="color: yellow;">Akrils</a></li>
+							<li><a href="cits.html">Cits</a></li>
+						</ul>
+					</div>
+			<!-- --><div class="col-sm-2">
+						<ul class="navigation">
+							<ul class="navigation">
+								<li><a href="info.html">Info</a></li>
+							</ul>	
+						</ul>			
+					</div>
+			</div> <!-- row -->
+		</div> <!-- container fluid -->
+		</header>			
+<!-- --><article class="main">
+		<div class="akrils">
+			<img class="akrils_izmeri box_shadow FADE_IN" src="img/Cits_1_Akrils.jpg" alt="akrils">
+		</div>
+  		</article>
+<!-- --><aside class="aside aside-1">
+			<p class="apraksts">Modernisms, par tēmu<br>"Kuba  Kubita Kubera"<br>"Kuba, Kubiņa, Kubīte"<br>2019, audekls akrīls<br>50 x 58cm</p>
+		</aside>
+<!-- --><aside class="aside aside-2">
+			<p class="apraksts">Grūti iedomāties Kubu kā nopietnu draudu jebkam. Tā valsts vairāk asociējās ar imperiālisma laikmeta ēkām, veciem auto, karstumu un "šmigu". Tamdēļ, to dīvainu un nestandartu sociālismu labi raksturo citrons starp noliktu malā sirpi un āmuru. Citrons kā raža, kura izaug pati par sevi.</p>
+		</aside>
+<!-- --><footer class="footer">
+			<div class="container-fluid">	
+				<div class="row">
+					<div class="col-sm-12 author">
+						<small><p id="author" class="p_color_author  ">Web lapas izstrādātājs: <strong>Kristiāns Danoss</strong> &#169 2019 visas tiesības paturētas.</p></small>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div> <!-- wrapper -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>

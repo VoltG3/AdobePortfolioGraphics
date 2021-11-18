@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* Kristiāns Danoss */
+.carousel-inner {
+	padding-top: 100px;
+}
+
+.carousel-indicators {
+	margin-bottom: -80px;
+	
+}
+
+.carousel-indicators li {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}

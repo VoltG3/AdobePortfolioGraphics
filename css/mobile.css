@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* Kristiāns Danoss */
+.wrapper {
+	display: flex;  
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.wrapper > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.8;
+	background: #193042;
+		height: 6vh;
+}
+
+.main {
+	padding-top: 6vh;
+  	text-align: center;
+		height: auto;
+	flex: 1;
+}
+
+
+.footer {
+		height: 6vh;
+}
+	
+.aside-1 {
+		height: auto;	
+}
+
+.aside-2 {
+		height: auto;
+}
+
+@media all and (min-width: 600px) {
+	.aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+	.main    { flex: 3 0px; }
+	.aside-1 { order: 1; } 
+	.main    { order: 2; }
+	.aside-2 { order: 3; }
+	.footer  { order: 4; }
+	.footer_author { order: 5; }
+}
+/********************************************************************************************/
+/*Titullapa, skat "main_index"*/
+.header {
+	z-index: 1;
+}
+
+.aside-1,
+.aside-2,
+.main,
+.apraksts {
+  	z-index: auto;
+}
+
+/*********************************************************************************************/
+
+.footer {
+	z-index: 4;
+}
+body {
+	background-image: url(../img/bg_mono.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;		
+}
+
+video {
+	visibility: hidden;
+}
+
+.footer {
+	margin-top: 35vh;
+}
+
+.navigation {
+	visibility: hidden;
+}
+
+.portfolio_mobile {
+	visibility: visible;
+}
+
+.navigation_2 {
+	
+	padding-top: 20px;
+	madding-right: 30px;
+}
+
+.portfolio_mobile {
+	font-size: 40px;
+	padding-top: 15px;
+	padding-left: 30px;
+	color: white;
+}
+
+.carousel-indicators {
+	display: none;
+}
+
+.a_href_mobile_NONE {
+	pointer-events: none;
+  	cursor: default;
+}
+
+.virsraksts {
+	font: 25px/0 "Dosis", sans-serif;
+	line-height: 30px;
+	font-weight: bold; 
+	color: white;
+		padding-top: 40px;
+}
+
+.apraksts {
+	font: 22px/0 "Dosis", sans-serif;
+	line-height: 25px;
+	color: white;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	
+}
+
+.apraksts_2 {
+	font: 15px/0 "Dosis", sans-serif;
+	line-height: 20px;
+	color: white;
+		padding-top: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+}
+/************************ Izvēlne MOBILE */
+.mobil_izvelne {
+	font: 20px/0 "Dosis", sans-serif;
+	line-height: 10px;
+	color: white;
+		padding-top: 6px;
+}
+/************************** Portfolio ****/
+/************************** Latvijai 100 */
+/************************** Plakāti ******/
+.plakati {
+	width: 350px;
+}
+
+.plakati_horizontalais {
+	width: 350px;
+}
+/************************** Diplomi ******/
+.diplomi {
+	width: 350px;
+}
+/*
+.diplomi_vaks {
+	width: 30vh;
+}/*
+/************************** Atklātnes ****/
+.atklatnes {
+	width: 400px;
+}
+/************************** Video ********/
+.video {
+	width: 400px;
+}
+/*
+.video_small_logo {
+	width: 75px;
+}*/
+/************************** Cits *********/
+.cits {
+	width: 350px;
+	border-radius: 10px;
+}
+.logo_cits {
+	width: 200px;
+}
+
+.author {
+	border-top: solid 1px grey;
+}
+
+#author {
+	margin: 8px;
+}
+/************************** Akrīls *******/
+.akrils_izmeri {
+	width: 450px;
+}
+
+
+/************************** Info *********/
+.vizitkarte {
+	width: 200px;
+}
+
+.portrets {
+	width: 150px;
+}
+/*****************************************/

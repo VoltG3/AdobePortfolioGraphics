@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Kristiāns Danoss */
+
+.fullscreen-bg__video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	min-width: 100%;
+    min-height: 100%;
+  /*	filter: grayscale(100%);*/
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+/*Titullapa, skat "mobile"*/
+.header {
+	z-index: 3;
+}
+
+.aside-1 {
+  	z-index: 3;
+}
+
+.aside-2 {
+	z-index: 3;
+}
+.main {
+	z-index: 2;
+}
+
+.apraksts {
+	z-index: 1;
+}
+
+#video {
+	z-index: -2;
+}
+
+.footer {
+	z-index: 4;
+}
