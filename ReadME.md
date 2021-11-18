@@ -96,6 +96,7 @@ ___
 ## Post card
 <table>
   <tr>
-    <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Atklatne_1_lieldienu_2018.jpg" alt="img"</td>
+    <td style="width: 100%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Atklatne_1_lieldienu_2018.jpg" alt="img"</td>
   <tr>
-</table>  
+</table>
+
