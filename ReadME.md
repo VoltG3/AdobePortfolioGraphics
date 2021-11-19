@@ -44,13 +44,18 @@ ___
 ___
     
     
-## Model
+## Model 3D
 ### The task was to create a model from cardboard, sand, stones, etc.
 [A video made for fun] https://drive.google.com/file/d/1WDJiiH6OnZJBcUyjDDvjrDc4oUXFhEU7/view?usp=sharing
 <table>
   <tr>
-    <td style ="width: 100%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Uzdevums_4_makets_3D_arka.jpg" alt="img"></td>
+    <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Uzdevums_4_makets_3D_arka_1.jpg" alt="img"></td>
+    <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Uzdevums_4_makets_3D_arka_2.png" alt="img"></td>
   <tr>
+  <tr>
+    <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Uzdevums_4_makets_3D_arka_3.png" alt="img"></td>
+    <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Uzdevums_4_makets_3d_arka_4.png" alt="img"></td>
+  <tr>  
  </table>
  
  ___
