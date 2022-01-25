@@ -1,11 +1,12 @@
 ## Graphic works 
 <br>
 
-### This page is very old, inserted here for the display of graphic works 
+### Portfolio page old version
+[Link to Video] https://danoss.no/
 
 <table>
   <tr>
-    <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/desktop.png" alt="img"></td>
+    <td style ="width: 50%;" ><img src="hhttps://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/desktop.png" alt="img"></td>
   <tr>
  </table>
  
@@ -21,6 +22,9 @@ ___
   <tr>
     <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_3.png" alt="img"</td>
     <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_4.png" alt="img"</td>
+  <tr>
+    <tr>
+    <td style="width: 100%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_5.png" alt="img"</td>
   <tr>
 </table>
 
@@ -102,6 +106,17 @@ ___
 <table>
   <tr>
     <td style="width: 100%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Atklatne_1_lieldienu_2018.jpg" alt="img"</td>
+  <tr>
+</table>
+    
+
+___
+ 
+    
+## Painting acrylic
+<table>
+  <tr>
+    <td style="width: 70%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/Cits_1_Akrils.jpg" alt="img"</td>
   <tr>
 </table>
 
