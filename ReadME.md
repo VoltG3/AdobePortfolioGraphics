@@ -16,15 +16,12 @@ ___
 [Link to Video] https://drive.google.com/file/d/1wkv_5bES41PgiHmYlQdr57XqwwKkhLSZ/view?usp=sharing
 <table>
   <tr>
-    <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_01.png" alt="img"</td>
+    <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_5.png" alt="img"</td>
     <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_2.png" alt="img"</td>
   <tr>
   <tr>
     <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_3.png" alt="img"</td>
     <td style="width: 50%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_4.png" alt="img"</td>
-  <tr>
-    <tr>
-    <td style="width: 100%;"><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/sketchup_5.png" alt="img"</td>
   <tr>
 </table>
 
