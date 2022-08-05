@@ -1,8 +1,8 @@
 ## Graphic works 
 <br>
 
-### Portfolio page old version
-[Link to Video] https://danoss.no/
+### Portfolio 
+[Link to Video] https://github.com/VoltG3/html_projects/tree/master/portfolio
 
 <table>
   <tr>
