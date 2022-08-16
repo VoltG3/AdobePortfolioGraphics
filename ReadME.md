@@ -1,9 +1,4 @@
-## Graphic works 
-<br>
-
-### Portfolio 
-[Link to Video] https://github.com/VoltG3/html_projects/tree/master/portfolio
-
+## Portfolio 
 <table>
   <tr>
     <td style ="width: 50%;" ><img src="https://github.com/VoltG3/AdobePortfolioGraphics/blob/master/img/desktop.png" alt="img"></td>
